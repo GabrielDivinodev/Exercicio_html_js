@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de números</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Comparador de números</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <p class="aviso">
+                Tente novamente! O primeiro valor: <strong>15</strong> é maior que o segundo valor: <strong>11</strong>
+            </p>
+            <div class="textos">
+                <h3>
+                    Digite dois valores
+                </h3>
+                <p>Obs: O primeiro valor deve ser <strong>menor</strong> que o segundo</p>
+            </div>
+            <form id="formulario-comparador">
+                <input type="number" id="primeiro-valor" placeholder="Primeiro valor" required>
+                <p class="sinal"></p>
+                <input type="number" id="segundo-valor" placeholder="Segundo valor" required>
+                <button type="submit" id="botao-comparar">Comparar</button>
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
